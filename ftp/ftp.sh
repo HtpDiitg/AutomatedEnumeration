@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# No Color
 
-NC='\033[0m'
+NC='\033[0m'		  # No Color
 
 # Regular Colors
 
@@ -52,11 +51,6 @@ do
 done
 
 
-
-#Color_Off='\033[0m'       # Text Reset
-#printf "I ${BBlack}love Stack${NC} Overflow"
-
-
 echo -e "${BRed}IMPORTANT!${NC}"
 echo -e "${BWhite}Before usage create username and password lists. Provide path to them."
 echo -e "\n\n${BPurple}FTP Enumeration\n\n"
@@ -65,7 +59,7 @@ echo -e "${BWhite}NMAP basic scan:${NC}"
 nmap $ip -p $port -sC -sV
 
 echo -e "\n\n${BWhite}More in-depth scan:${NC}"
-#nmap --script ftp-* -p $port $ip 
+nmap --script ftp-* -p $port $ip 
 
 
 echo -e "\n\n${BWhite}ftp-user-enum.pl:${NC}"
