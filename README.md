@@ -1,2 +1,3 @@
 # AutomatedEnumeration
- Just a collection of useful commands
+
+Just a collection of useful commands :)

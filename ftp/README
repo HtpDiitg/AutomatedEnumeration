@@ -1,0 +1,6 @@
+bash ftp.sh -i 127.0.0.1 -p 21 -u users.txt -P pass.txt
+
+-i - IP address
+-p - port number
+-u - file containing list of users
+-P - file containing list of passwords
