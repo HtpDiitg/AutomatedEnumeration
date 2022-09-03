@@ -1,0 +1,13 @@
+bash dns.sh -i 127.0.0.1 -d test.com
+
+-i - IP address
+-d - domain
+
+
+Tools you need:
+dnsenum
+dnsrecon
+whois
+dig
+host
+nslookup

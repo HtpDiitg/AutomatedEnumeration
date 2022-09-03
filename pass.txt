@@ -1,0 +1,7 @@
+admin
+root
+anonymous
+guest
+adminadmin
+pass
+password
