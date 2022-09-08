@@ -1,0 +1,9 @@
+bash ldap.sh -i 127.0.0.1 -p 389
+
+-i - IP address
+-p - port number
+
+
+Tools you need:
+nmap
+ldapsearch
