@@ -1,0 +1,13 @@
+bash mssql.sh -i 127.0.0.1 -p 1433 -U ../users.txt -C ../pass.txt -u user -P password
+
+-i - IP address
+-p - port number
+-U - file containing list of users
+-C - file containing list of passwords
+-u - username
+-P - password
+
+
+Tools you need:
+nmap
+hydra
