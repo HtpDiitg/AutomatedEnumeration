@@ -1,0 +1,10 @@
+bash pop3.sh -i 127.0.0.1 -u Max -P ../pass.txt 
+
+
+-i - IP address
+-P - path to the file containing passwords
+-u - username
+
+
+Tool you need:
+hydra
