@@ -1,0 +1,10 @@
+bash rpc.sh -i 127.0.0.1 -u Max
+
+
+-i - IP address
+-u - username
+
+
+Tools you need:
+nmap
+rpcclient
